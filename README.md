@@ -1,7 +1,5 @@
 
-## Available Scripts
-
-Blog Project Created Using React Js
+## Blog Project Created Using React Js
 
 ### `npm start`
 
