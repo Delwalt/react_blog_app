@@ -5,7 +5,7 @@ import {makeStyles, Typography, useTheme} from "@material-ui/core";
 import {Link} from "react-router-dom";
 
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles({
     card: {
         display: 'flex',
         marginTop: '15px'
@@ -28,7 +28,7 @@ const useStyles = makeStyles(() => ({
         textDecoration: 'none'
     }
 
-}));
+});
 const API = 'https://blog.gkmit.co/articles';
 
 function PostCard(props) {
